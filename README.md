@@ -15,3 +15,14 @@ This plugin uses the latitude and longitude as specified in Domoticz Settings ->
 | **Alert**    | Alert with the maximum rain rate in the coming 2 hours
 
 ![Buienalarm](https://github.com/Xorfor/Domoticz-Buienalarm-Plugin/blob/master/buienalarm.png)
+
+### Alert
+Alerts are defined as follows:
+
+| Level | mm/h    | Text
+| ---:  | ---:    | :---
+| 0     | < 0.1   | Geen neerslag
+| 1     | 0.1 - 1 | Lichte neerslag
+| 2     | 1 - 3   | Matige neerslag
+| 3     | 3 - 10  | Zware neerslag
+| 4     | > 10    | Zware buien
