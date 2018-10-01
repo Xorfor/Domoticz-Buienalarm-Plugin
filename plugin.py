@@ -184,8 +184,8 @@ class BasePlugin:
                                     raining = 1
                                     status = self.__PRECIP
                                 # Display current rain
-                                UpdateDevice(self.__UNIT_RAIN, int(p),
-                                             "{};{}".format(100*p, p))
+                                UpdateDevice(self.__UNIT_RAIN, 0,
+                                             "{};{}".format(100*p, 0))
                             else:
                                 if raining == 0:
                                     if p > 0:
