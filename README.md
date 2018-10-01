@@ -1,5 +1,6 @@
-# Buienalarm 
+# Buienalarm (NL)
 This Domoticz plugin retrieves data from an **undocumented** api call from https://www.buienalarm.nl/.
+It seems that this api also works within other countries, but this is not implemented yet. So, this plugin currently only works within the Netherlands and the text messages are also in Dutch. 
 
 ## Parameters
 None
