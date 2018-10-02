@@ -36,7 +36,7 @@ class BasePlugin:
     __DEBUG_ALL = 1
 
     __HEARTBEATS2MIN = 6
-    __MINUTES = 1  # Data is updated every 5 minutes
+    __MINUTES = 5  # Data is updated every 5 minutes
 
     """
     Full url:
